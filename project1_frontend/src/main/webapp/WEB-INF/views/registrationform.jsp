@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Registration</title>
 </head>
 <body>
 <c:url value="/all/savecustomer" var="url"></c:url>
 <form:form action="${url }" modelAttribute="customer">
-<div class="boxed" style="border:1px solid">
+
 <div class="form-group">
 <form:label path="firstname">Enter Firstname</form:label>
 <form:input path="firstname" class="form-control"/>
@@ -39,7 +39,7 @@
 <form:input path="phone" class="form-control"/>
 <form:errors path="phone" cssStyle="color:red"></form:errors>
 </div>
-</div>
+
 <div class="boxed">
 <div class="form-group">
 <form:label path="user.username">Enter Username</form:label>
@@ -54,7 +54,9 @@
 <form:errors path="user.password" cssStyle="color:red"></form:errors>
 </div>
 </div>
-
+<br>
+<h2>BILLING ADDRESS</h2>
+<br>
 <div class="boxed">
 <div class="form-group">
 <form:label path="billingAddress.streetname">Enter Streetname</form:label>
@@ -87,6 +89,9 @@
 <form:errors path="billingAddress.zipcode" cssStyle="color:red"></form:errors>
 </div>
 </div>
+<br>
+<h2>SHIPPING ADDRESS</h2>
+<br>
 <div class="boxed">
 <div class="form-group">
 <form:label path="shippingAddress.streetname">Enter Streetname</form:label>
@@ -122,15 +127,8 @@
 
 <div class="form-group">
 <input type="submit" value="Register" >
-
-
-
 </div>
 </div>
-
-
-
-
 </form:form>
 <%@ include file="footer.jsp"%>
 </body>

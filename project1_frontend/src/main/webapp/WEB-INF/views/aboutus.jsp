@@ -11,13 +11,10 @@ color:blue;
 }
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>About US</title>
 </head>
 <body bgcolor='yellow' >
-<h2>The Website consists of
-lists
-products
-cars<h2>
+<h2>The Website consists of list products cars<h2>
 
 
 </body>

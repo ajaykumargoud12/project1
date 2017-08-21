@@ -6,9 +6,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Product</title>
 </head>
-<body style=background-color:orange>
+<body style=background-color:light blue>
 <c:url value="/admin/saveproduct" var="url"></c:url>
 	<form:form action="${url }" method="post" modelAttribute="product" enctype="multipart/form-data">
 		<div class="form-group">

@@ -2,12 +2,12 @@
 <!DOCTYPE HTML >
 <html>
 <head>
- 
   <meta charset="ISO-8859-1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <title>Home Page</title>
  
     
 </head>
@@ -26,16 +26,16 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="resources//images//20.jpg" alt="first slide"/>
+        <img src="resources//images//1.png" alt="first slide"/>
         
       </div>
 
       <div class="item">
-        <img src="resources//images//21.jpg"alt="second slide"/>
+        <img src="resources//images//2.png"alt="second slide"/>
       </div>
     
       <div class="item">
-        <img  src="resources//images//23.jpg" alt="third slide"/>
+        <img  src="resources//images//3.png" alt="third slide"/>
       </div>
     </div>
 
@@ -50,6 +50,8 @@
     </a>
   </div>
 </div>
+<br>
+<br>
 
 </body>
 </html>

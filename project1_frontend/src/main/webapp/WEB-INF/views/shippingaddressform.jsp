@@ -7,13 +7,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Shipping</title>
 </head>
 <body>
 <c:url value="/cart/order/${cartid}" var="url"></c:url>
 <form:form action="${url }" modelAttribute="shippingAddress" >
 <form:hidden path="id"/>
-<div class="boxed" style= "border:1px solid">
 Shipping Address
 <div class="form-group">
 <form:label path="streetname">Enter Streetname</form:label>
@@ -53,7 +52,7 @@ Shipping Address
 <div class="form-group">
 <input type="submit" value="Next">
 </div>
-</div>
+
 </form:form>
 </body>
 </html>

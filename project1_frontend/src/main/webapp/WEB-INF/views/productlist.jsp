@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>List</title>
 <script>
 	$(document).ready(function() {
 		var searchCondition = '${searchCondition}';
 		$('.table').DataTable({
-			"lengthMenu" : [ [ 3, 5, 7, -1 ], [ 3, 5, 7, "All" ] ],
+			"lengthMenu" : [ [ 1,2,3,4,5,6, -1 ], [ 1,2,3,4,5,6, "All" ] ],
 			"oSearch" : {
 				"sSearch" : searchCondition
 			}
