@@ -8,13 +8,13 @@
 <title>Product</title>
 </head>
 
-<body>>
+<body>
 <b>Details about the Product</b>
 <table>
 <br>
 <tr>
-<c:url value="//resources//images//${product.id }.png" var="imageUrl"></c:url>
-<td><img src="${imageUrl }" height="500" width="500"></td></tr>
+<c:url value="//resources//images//${product.id }.jpg" var="imageUrl"></c:url>
+<td><img src="${imageUrl }" height="250" width="250"></td></tr>
 <tr>
 <br>
 <td>Product Name:</td><td>${product.productName}</td>
@@ -37,8 +37,7 @@ Out of Stock
 <form action="${url }">
 Enter Units : <input type="text" name="units"><br><br>
 
-Add To Cart : <button type="submit"
-style="background:none;border:none;padding:0" class="btn btn-default btn-lg" >
+Add To Cart : <button type="submit" style="background:none;border:20;padding:20" class="btn btn-default btn-lg" >
 <span class="glyphicon glyphicon-shopping-cart"></span>
 
 </button>

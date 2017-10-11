@@ -8,7 +8,7 @@
 <title>Thank You</title>
 </head>
 <body>
-<div class="jumbotron">
+<div>
 <h1>Thank you! visit again!!!</h1>
 </div>
 </body>

@@ -88,7 +88,8 @@
 
                                 </tbody>
                             </table>
-                            <input type="submit" value="submit">
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp                          
+  <input type="submit" value="submit" align="center">
                         </div>
 
 
@@ -100,4 +101,4 @@
             </form:form>
         </div>
 
-<%@ include file="footer.jsp" %>
+
