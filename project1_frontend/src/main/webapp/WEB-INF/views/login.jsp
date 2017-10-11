@@ -9,14 +9,23 @@
 </head>
 <body>
 <c:url value="/j_spring_security_check" var="login"></c:url>
+<div>
+
+<h4>
 
 <form action="${login }" method="post"><br>
-Enter username :<input type="text" name="j_username"><br><br>
-Enter password :<input type="password" name="j_password"><br><br>
-<input type="submit" value="Login"><br>
+<div class="form-group">
+Enter username :<input type="text" name="j_username" class="form-control"><br>
+</div>
+<div class="form-group">
+Enter password :<input type="password" name="j_password" class="form-control"><br>
+</div>
+<input type="submit" value="Login" align="centre">
+<input type="reset" value="reset"><br>
 </form>
 
+</h4>
 <br>
+</div>
 </body>
 </html>
-<%@ include file="footer.jsp" %>

@@ -11,11 +11,12 @@
 <body>>
 <b>Details about the Product</b>
 <table>
+<br>
 <tr>
 <c:url value="//resources//images//${product.id }.png" var="imageUrl"></c:url>
 <td><img src="${imageUrl }" height="500" width="500"></td></tr>
 <tr>
-
+<br>
 <td>Product Name:</td><td>${product.productName}</td>
 </tr>
 <tr>
@@ -34,16 +35,16 @@ Out of Stock
 <c:if test="${product.quantity!=0 }">
 <c:url value="/cart/addtocart/${product.id }" var="url"></c:url>
 <form action="${url }">
-Enter Units<input type="text" name="units"><br>
+Enter Units : <input type="text" name="units"><br><br>
 
-<button type="submit"
+Add To Cart : <button type="submit"
 style="background:none;border:none;padding:0" class="btn btn-default btn-lg" >
 <span class="glyphicon glyphicon-shopping-cart"></span>
 
 </button>
 </form>
 </c:if>
-
+<br>
 <c:url value="/all/product/getallproducts" var="url1"></c:url>
 <a href="${url1 }">Back to Product list</a><br>
 </body>

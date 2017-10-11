@@ -9,13 +9,13 @@ background:  #27ae60;
 color: #FFF;
 border-radius: 0px;
 }
-.jumbotron-sm { padding-top: 20px;
-padding-bottom: 20px; }
+.jumbotron-sm { padding-top: 10px;
+padding-bottom: 10px; }
 .jumbotron small {
 color:  #27ae60 ;
 }
 .h1 small {
-font-size: 24px;
+font-size: 15px;
 }
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">

@@ -10,7 +10,7 @@
 	$(document).ready(function() {
 		var searchCondition = '${searchCondition}';
 		$('.table').DataTable({
-			"lengthMenu" : [ [ 1,2,3,4,5,6, -1 ], [ 1,2,3,4,5,6, "All" ] ],
+			"lengthMenu" : [ [3,4,5,6, -1 ], [ 3,4,5,6, "All" ] ],
 			"oSearch" : {
 				"sSearch" : searchCondition
 			}
@@ -32,7 +32,7 @@
 <c:url value="/all/product/viewproduct/${p.id }" var="viewUrl"></c:url>
 <c:url value="/admin/product/deleteproduct/${p.id }" var="deleteUrl"></c:url>
 <tr>
- <td><img src="${imageUrl }" height="100" width="100"></td>
+ <td><img src="${imageUrl }" height="50" width="50"></td>
 <td><a href="${viewUrl }">${p.productName }</a></td><td>${p.category.categoryName}</td><td>${p.price }</td>
  <td><a href="${viewUrl }"> <span class="glyphicon glyphicon-info-sign"></span></a>
  <security:authorize access="hasRole('ROLE_ADMIN')">
@@ -52,4 +52,3 @@
 </div>
 </body>
 </html>
-<%@ include file="footer.jsp"%>

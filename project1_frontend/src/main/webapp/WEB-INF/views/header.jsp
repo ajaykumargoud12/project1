@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Home</title>
 <link rel="stylesheet"
@@ -25,9 +26,9 @@
 	href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"
 	rel="stylesheet">
 </head>
-<body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
+<body >
+	<nav class="navbar navbar-default" style=background-color:#27ae60>
+		<div class="container-fluid"><h4><b>
 			<ul class="nav navbar-nav">
 				<c:url value="/home" var="url1"></c:url>
 				<li><a href="${url1}">Home</a></li>
@@ -80,6 +81,8 @@
 				</c:if>
 			</ul>
 		</div>
+	</b>
+	</h4>
 	</nav>
 </body>
 </html>

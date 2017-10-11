@@ -12,8 +12,9 @@
 <body>
 <c:url value="/cart/order/${cartid}" var="url"></c:url>
 <form:form action="${url }" modelAttribute="shippingAddress" >
-<form:hidden path="id"/>
-Shipping Address
+<form:hidden path="id"/><br>
+<h1>Shipping Address</h1>
+<br>
 <div class="form-group">
 <form:label path="streetname">Enter Streetname</form:label>
 <form:input path="streetname" class="form-control"/>

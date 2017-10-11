@@ -45,4 +45,3 @@ Total Price :${grandTotal}
 
 </body>
 </html>
-<%@ include file="footer.jsp" %>
